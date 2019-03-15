@@ -13,10 +13,10 @@ Setup a trusted origin so the javascript can fetch the `well-known` configuratio
 3. Click: **Trusted Origins**
 4. Click: **Add Origin**
 5. Set:
-  1. **Name**
-  2. **Origin URL** to: `http://localhost:8000`
-  3. Click: **CORS** checkbox
-  4. Click **Save**
+    1. **Name**
+    2. **Origin URL** to: `http://localhost:8000`
+    3. Click: **CORS** checkbox
+    4. Click **Save**
 
 Setup a SPA app that supports the Authroization Code flow
 
@@ -27,9 +27,9 @@ Setup a SPA app that supports the Authroization Code flow
 5. Select: **Single Page App (SPA)**
 6. Click: **Create**
 7. Set:
-  1. **Name**
-  2. **Login redirect URIs** to: `http://localhost:8000/redirect.html`
-  3. Click: **Save**
+    1. **Name**
+    2. **Login redirect URIs** to: `http://localhost:8000/redirect.html`
+    3. Click: **Save**
 8. Capture the **Client ID** 
 9. Click: **Assignments**
 10. Click: **Assign** -> **Assign to Groups**
