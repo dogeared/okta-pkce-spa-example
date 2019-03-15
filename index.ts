@@ -25,6 +25,11 @@ import {TokenResponse} from '@openid/appauth/built/token_response';
 import { AuthorizationResponse } from '@openid/appauth/built/authorization_response';
 import { StringMap } from '@openid/appauth/built/types';
 
+const openIdConnectUrl = 'https://micahtrex2.trexcloud.com';
+const clientId = '0oa1ogqkuDgN6GXfd0w6';
+const redirectUri = 'http://localhost:8000/redirect.html';
+const scope = 'openid';
+
 /* Some interface declarations for Material design lite. */
 
 /**
@@ -41,15 +46,6 @@ declare interface SnackBarOptions {
 declare interface MaterialSnackBar {
   showSnackbar: (options: SnackBarOptions) => void;
 }
-
-/* an example open id connect provider */
-const openIdConnectUrl = 'https://micahtrex2.trexcloud.com';
-
-/* example client configuration */
-const clientId = '0oa1ogqkuDgN6GXfd0w6';
-const redirectUri = 'http://localhost:8000/redirect.html';
-const scope = 'openid';
-
 /**
  * The Test application.
  */
